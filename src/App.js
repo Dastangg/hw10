@@ -4,7 +4,8 @@ import Card from './components/Card';
 import ToDos from './components/ToDos';
 import AddToDo from './components/AddToDo';
 import Modal from './components/Modal';
-import { TodoProvider } from './context/ToDoContext';
+import TodoProvider from './context/ToDoContext';
+
 
 function App() {
   const [showModal, setShowModal] = useState(false);
